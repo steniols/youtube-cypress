@@ -2,7 +2,7 @@
 
 Estudo de testes E2E com Cypress.
 
-## Rodar o servidor
+## Acesse a pasta `backend`, instale as dependências e rode o servidor:
 
 ```bash
 cd backend 
@@ -10,7 +10,7 @@ npm install
 npm start
 ```
 
-## Rodar o app
+## Acesse a pasta `frontend`, instale as dependências e rode o site:
 
 ```bash
 cd frontend 
@@ -18,10 +18,9 @@ npm install
 npm start
 ```
 
-## Rodar os testes
-
-Após executar o comando abaixo, pela interface visual do Cypress clique no `ongs.spec.js` para iniciar o teste
+## Na parta raiz, instale as dependências e rode o site:
 
 ```bash
-./node_modules/.bin/cypress open
+npm install
+npm run cy-open
 ```
