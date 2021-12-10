@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-### Na parta raiz, instale as dependências e rode o site:
+### Na parta raiz, instale as dependências e rode os testes:
 
 ```bash
 npm install
